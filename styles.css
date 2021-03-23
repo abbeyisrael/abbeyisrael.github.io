@@ -4,7 +4,7 @@
 }
 
 body {
-    background-color: rgb(169, 179, 177);
+    background-color: rgb(150, 155, 154);
     font-family: Verdana, Geneva, Tahoma, sans-serif
 }
 
@@ -15,5 +15,36 @@ body {
     box-shadow: 0px 8px 24px rgba(0, 0, 0, 0.1);
     height: 80px;
 }
-h1 {color: rgb(26, 24, 24)}
-p {font-size: 20px}
+
+.wrapper {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 80px;
+}
+
+nav ul {
+    display: flex;
+}
+
+.nav-items li {
+    list-style: margin-right 100px;
+}
+
+.nav-items li:nth-last-of-type(1){
+    margin:0;
+}
+
+.nav-items li a {
+    color: #000000;
+    font-size: 20px;
+    font-family: "Judson", sans-serif;
+    text-decoration: none;
+}
+
+h1 {color: rgb(172, 55, 55)}
