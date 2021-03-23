@@ -32,12 +32,19 @@ nav ul {
     display: flex;
 }
 
+nav .logo {
+    font-family: "Judson", sans-serif;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 64px;
+    color:rgb(172, 55, 55)
+}
 .nav-items li {
     list-style: margin-right 100px;
 }
 
 .nav-items li:nth-last-of-type(1){
-    margin:0;
+    margin: 0;
 }
 
 .nav-items li a {
