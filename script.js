@@ -20,3 +20,4 @@ $(document).ready(function(){
         $('.navbar .menu').toggleClass("active");
         $('.menu-btn i').toggleClass("active");
     })
+})
