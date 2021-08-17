@@ -66,7 +66,7 @@ section .title::after{
     bottom: -8px;
     left: 50%;
     font-size: 20px;
-    color: rgb(27, 27, 27);
+    color:#b6666f
     padding: 0 5px;
     background: #fff;
     transform: translateX(-50%);
@@ -172,11 +172,13 @@ section .title::after{
 }
 .home .home-content .text-1{
     font-size: 27px;
+    color:rgb(27, 27, 27)
 }
 .home .home-content .text-2{
     font-size: 75px;
     font-weight: 600;
     margin-left: -3px;
+    color:rgb(27, 27, 27)
 }
 .home .home-content .text-3{
     font-size: 40px;
@@ -367,7 +369,8 @@ section .title::after{
 }
 /* teams section styling */
 .teams .title::after{
-    content: "who with me";
+    content: "what i've done";
+    color: #b6666f;
 }
 .teams .carousel .card{
     background: #222;
