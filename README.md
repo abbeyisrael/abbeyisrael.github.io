@@ -1,5 +1,5 @@
 # abbeyisrael.github.io
-Project Website
+Personal Website
 
 Hello!
 This is my personal website that I am currently working on. 
