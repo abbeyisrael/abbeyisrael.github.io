@@ -252,7 +252,7 @@ section .title::after{
 }
 
 /* services section styling */
-.services, .teams{
+.services, .experience{
     color:#fff;
     background: #111;
 }
