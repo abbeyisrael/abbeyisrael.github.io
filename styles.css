@@ -66,7 +66,7 @@ section .title::after{
     bottom: -8px;
     left: 50%;
     font-size: 20px;
-    color:#b6666f
+    color:#b6666f;
     padding: 0 5px;
     background: #fff;
     transform: translateX(-50%);
@@ -208,6 +208,7 @@ section .title::after{
 /* about section styling */
 .about .title::after{
     content: "who i am";
+    color: #b6666f;
 }
 .about .about-content .left{
     width: 45%;
@@ -367,12 +368,12 @@ section .title::after{
 .skills-content .right .mysql::before{
     width: 70%;
 }
-/* teams section styling */
-.teams .title::after{
+/* experience section styling */
+.experience .title::after{
     content: "what i've done";
     color: #b6666f;
 }
-.teams .carousel .card{
+.experience .carousel .card{
     background: #222;
     border-radius: 6px;
     padding: 25px 35px;
@@ -380,25 +381,25 @@ section .title::after{
     overflow: hidden;
     transition: all 0.3s ease;
 }
-.teams .carousel .card:hover{
+.experience .carousel .card:hover{
     background: #b6666f;
 }
-.teams .carousel .card .box{
+.experience .carousel .card .box{
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     transition: all 0.3s ease;
 }
-.teams .carousel .card:hover .box{
+.experience .carousel .card:hover .box{
     transform: scale(1.05);
 }
-.teams .carousel .card .text{
+.experience .carousel .card .text{
     font-size: 25px;
     font-weight: 500;
     margin: 10px 0 7px 0;
 }
-.teams .carousel .card img{
+.experience .carousel .card img{
     height: 150px;
     width: 150px;
     object-fit: cover;
@@ -406,7 +407,7 @@ section .title::after{
     border: 5px solid #b6666f;
     transition: all 0.3s ease;
 }
-.teams .carousel .card:hover img{
+.experience .carousel .card:hover img{
     border-color: #fff;
 }
 .owl-dots{
